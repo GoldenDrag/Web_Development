@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    margin-bottom: 70px;
+    
+}
+
+.regpage {
+    height: 83%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    background-color: rgba(29,161,242,1.00);
+    left: 0;
+}
+
+li {
+    width: 380px;
+    padding: 15px 0px;
+}
+
+ul {
+    margin: 0px;
+    width: 380px;
+    text-align: left;
+    list-style-type: none;
+}
+
+#birb {
+    position: absolute;
+    top: -70px;
+    left: -8px;
+    width: 65px;
+    height: 65px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.main-text {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+}
+
+span.main-text {
+    padding-right: 53px;
+    color: black;
+}
+
+ul.main-text {
+    width: 340px;
+    font-size: 19px;
+}
+
+h1.main-text {
+    text-align: left;
+    margin-bottom: 53px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right {
+    padding-top: 60px;
+    overflow: hidden;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    border: 1px solid rgba(29,161,242,1.00);
+    box-sizing: border-box;
+    padding: 0px 115px;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    text-align: left;
+    color: rgba(29,161,242,1.00);
+}
+
+footer {
+    color: rgb(101, 119, 134);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    font-size: 13px;
+    height: 9%;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.button {
+    border-width: 0px;
+    border-color: rgba(29,161,242,1.00);
+    border-radius: 0px;
+}
+
+.registration {
+    background-color:  rgba(29,161,242,1.00);
+}
+
+span {
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    color: rgb(101, 119, 134);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 16px;
+}
+
+#registration {
+    background-color: rgba(29,161,242,1.00);
+    border: 1px solid rgba(29,161,242,1.00) ;
+    padding: 10px 0px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#enter {
+    padding-top: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(29,161,242,1.00) ;
+    
+}
