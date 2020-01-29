@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    background: linear-gradient(white, rgba(211, 216, 232, 0.644));
+    height: 100%;
+}
+
+header {
+    height: 64px;
+    background-color: #3b5998;
+}
+
+label, input, a, button, h1, h3, p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+#login {
+    top: 5px;
+    position: fixed;
+    font-size: 12px;
+    right: 180px;
+}
+
+.emf {
+    color: #9cb4d8;
+}
+
+#main-info {
+    width: 50%;
+    position: fixed;
+    left: 0;
+    height: 100%;
+}
+
+#centered {
+    padding: 50px 130px;
+}
+
+img {
+    width: 400px;
+    height: 191px;
+}
+
+.p {
+    color: #133784;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#registration {
+    width: 50%;
+    position: fixed;
+    top: 30px;
+    height: 100%;
+    right: 0;
+}
+
+#panel {
+    width: 60%  ;
+    padding: 50px 50px;
+}
+
+.preface {
+    padding: 10px 0px;
+}
+
+.yo-text {
+    margin-bottom: 5px;
+}
+
+.yo-text input {
+    border: 1px solid rgba(95, 93, 93, 0.144);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.twospacer {
+    width: 315px;
+}
+
+.imp {
+    display: block;
+    color: #90949c;
+}
+
+.agriment {
+    padding: 15px 0px;
+    font-size: 12px;
+    width: 320px;
+}
+
+.space {
+    margin-bottom: 16px;
+}
+
+#final {
+    border-radius: 5px;
+    border-color: rgba(0, 128, 0, 0.658) ;
+    background-color: green;
+    font-size: 24px;;
+    padding: 5px 30px;
+    color: white;
+    font-weight: 600;
+}
