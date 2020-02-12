@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo List</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <script src="../js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h3 class="pad">ToDo List</h3>
+            </div>
+        </header>
+        <main>
+            <div id="center">
+                <div>
+                    <h1>ToDo List</h1>
+                    <form method="POST">
+                        <table>
+                            <tbody>
+                                <td class="pad pad-extra">
+                                    <input class="text-input pad" id ="user-input" type="text" placeholder="New Task">
+                                </td>
+                                <td>
+                                    <button class="pad button" id="add" onclick="anotherToDo()" type="button">Add</button>
+                                </td>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+                <div>
+                    <ul class="pad in" id="todo"></ul>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
