@@ -1,0 +1,12 @@
+#blocks{
+    border: 1px solid;
+    background-color: lightgrey;
+    margin:10px;
+    padding:8px;
+    border-radius: 8px;
+}
+
+.images{
+    width: 200px;
+    height: 200px;
+}
