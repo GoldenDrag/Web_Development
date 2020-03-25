@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ category.name }}</title>
+</head>
+<body>
+    <h1>Name: {{ category.name }}</h1>
+    <h3>id: {{ category.id }}</h3>
+    <a href="{% url 'products by category' category.id %}">See products</a>
+</body>
+</html>
